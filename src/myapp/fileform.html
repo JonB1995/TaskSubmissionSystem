@@ -1,0 +1,20 @@
+<!-- used to notify the browser of successful form submission -->
+
+<HTML>
+
+<BODY>
+<FORM action="/myapp/rest/files/newFile" method="POST" enctype="multipart/form-data">
+    Key <input type="text" name="name"></input><br><br>
+    Select Text File <input type="file" name="content"></input><br><br>
+    <input type="radio" name="task" value="t1"> Task 1 ~ the total number of words<br>
+    <input type="radio" name="task" value="t2"> Task 2 ~ average word length<br>
+    <input type="radio" name="task" value="t3"> Task 3 ~ most common word<br>
+    <input type="radio" name="task" value="t4"> Task 4 ~ longest word<br>
+    <input type="radio" name="task" value="t5"> Task 5 ~ random word<br><br>
+    <input type="submit" name="submit"></input><br><br>
+    <a href="http://localhost:8080/myapp/index.html">Return to index</a>
+</form>
+</FORM>
+</BODY>
+
+</HTML>

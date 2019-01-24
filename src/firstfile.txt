@@ -1,0 +1,5 @@
+Hello!
+
+If you’re reading this file then (hopefully) you have successfully tested your basic REST server. Now on to more advanced things...
+
+:-)
